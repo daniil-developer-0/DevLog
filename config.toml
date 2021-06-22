@@ -1,0 +1,4 @@
+baseURL = "https://daniilshilo-developer.github.io/DevLog/"
+languageCode = "ru-ru"
+title = "DevLog"
+theme = "devlog"
