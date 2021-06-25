@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "fonts.css",
+	"sources": [
+		"fonts.scss",
+		"_sass/_fonts.sass"
+	],
+	"sourcesContent": [
+		"@import 'fonts';",
+		""
+	],
+	"names": [],
+	"mappings": ""
+}

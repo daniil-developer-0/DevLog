@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"style.scss",
+		"_sass/_main.sass"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n",
+		".container {\n  max-width: 1440px; }\n"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,UAAU,CAAC,EACT,SAAS,EAAE,MAAM,GAAG"
+}
