@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "adaptive-style.css",
+	"sources": [
+		"adaptive-style.scss",
+		"_sass/_adaptive-style.sass"
+	],
+	"sourcesContent": [
+		"// Importing sass file from /_sass\n@import \"adaptive-style\";\n",
+		""
+	],
+	"names": [],
+	"mappings": ""
+}

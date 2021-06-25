@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "blog.css",
+	"sources": [
+		"blog.scss",
+		"_sass/_blog.sass"
+	],
+	"sourcesContent": [
+		"// Importing sass file from /_sass\n@import 'blog';",
+		""
+	],
+	"names": [],
+	"mappings": ""
+}

@@ -6,9 +6,9 @@
 		"_sass/_fonts.sass"
 	],
 	"sourcesContent": [
-		"@import 'fonts';",
-		""
+		"// Importing sass file from /_sass\n@import \"fonts\";\n",
+		"@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');\n"
 	],
 	"names": [],
-	"mappings": ""
+	"mappings": "ACAA,OAAO,CAAC,0HAAI"
 }
