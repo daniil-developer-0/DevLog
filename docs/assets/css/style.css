@@ -1,5 +1,6 @@
-/* Colorscheme based on solarized https://en.wikipedia.org/wiki/Solarized_(color_scheme) https://ethanschoonover.com/solarized/ */
-body { font-family: "Source Sans Pro", Lato, sans-serif; }
+body { font-family: 'Source Sans Pro', sans-serif; padding-top: 50px; }
+
+a { color: inherit; text-decoration: none; }
 
 .container { max-width: 1440px; margin: 0 auto; }
 

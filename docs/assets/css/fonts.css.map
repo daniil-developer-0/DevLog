@@ -2,13 +2,11 @@
 	"version": 3,
 	"file": "fonts.css",
 	"sources": [
-		"fonts.scss",
-		"_sass/_fonts.sass"
+		"fonts.scss"
 	],
 	"sourcesContent": [
-		"// Importing sass file from /_sass\n@import \"fonts\";\n",
-		"@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');\n"
+		"@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');"
 	],
 	"names": [],
-	"mappings": "ACAA,OAAO,CAAC,0HAAI"
+	"mappings": "AAAA,OAAO,CAAC,0HAAI"
 }

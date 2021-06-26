@@ -2,15 +2,11 @@
 	"version": 3,
 	"file": "style.css",
 	"sources": [
-		"style.scss",
-		"_sass/_main.sass",
-		"_sass/_variables.scss"
+		"style.scss"
 	],
 	"sourcesContent": [
-		"// Importing sass files from /_sass\n@import \"main\";\n",
-		"@import 'variables.scss';\nbody {\n  font-family: $ff; }\n\n.container {\n  max-width: 1440px;\n  margin: 0 auto; }\n\n// Header\n.header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  position: fixed;\n  top: 0;\n  width: 100%;\n  .navigation__list {\n    display: flex;\n    list-style-type: none;\n    align-items: center;\n    .navigation__item {\n      margin: 0 .5rem;\n      .navigation__link {\n        color: inherit;\n        text-decoration: none; } } } }\n\n// Footer\n.footer {\n  position: absolute;\n  bottom: 0; }\n",
-		"\n/* Colorscheme based on solarized\n * https://en.wikipedia.org/wiki/Solarized_(color_scheme)\n * https://ethanschoonover.com/solarized/\n */\n\n$bg: #FDF6E3;\n$fg: #657B83;\n$accent1: #DC322F;\n$accent2: #268BD2;\n\n$ff: 'Source Sans Pro', Lato, sans-serif"
+		"body {\n  font-family: 'Source Sans Pro', sans-serif;\n  padding-top: 50px;\n}\n\na {\n  color: inherit;\n  text-decoration: none;\n}\n\n.container {\n  max-width: 1440px;\n  margin: 0 auto;\n}\n// Header\n.header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  position: fixed;\n  top: 0;\n  width: 100%;\n  .navigation__list {\n    display: flex;\n    list-style-type: none;\n    align-items: center;\n    .navigation__item {\n      margin: 0 .5rem;\n      .navigation__link {\n        color: inherit;\n        text-decoration: none;\n      }\n    }\n  }\n}\n\n// Footer\n.footer {\n  position: absolute;\n  bottom: 0;\n}"
 	],
 	"names": [],
-	"mappings": "AECA,kIAGG;ADHH,AAAA,IAAI,CAAC,EACH,WAAW,ECSR,iBAAiB,EAAE,IAAI,EAAE,UAAU,GDTnB;;AAErB,AAAA,UAAU,CAAC,EACT,SAAS,EAAE,MAAM,EACjB,MAAM,EAAE,MAAM,GAAG;;AAGnB,AAAA,OAAO,CAAC,EACN,OAAO,EAAE,IAAI,EACb,eAAe,EAAE,aAAa,EAC9B,WAAW,EAAE,MAAM,EACnB,QAAQ,EAAE,KAAK,EACf,GAAG,EAAE,CAAC,EACN,KAAK,EAAE,IAAI,GASyB;;AAftC,AAOE,OAPK,CAOL,iBAAiB,CAAC,EAChB,OAAO,EAAE,IAAI,EACb,eAAe,EAAE,IAAI,EACrB,WAAW,EAAE,MAAM,GAKa;;AAfpC,AAWI,OAXG,CAOL,iBAAiB,CAIf,iBAAiB,CAAC,EAChB,MAAM,EAAE,OAAO,GAGa;;AAflC,AAaM,OAbC,CAOL,iBAAiB,CAIf,iBAAiB,CAEf,iBAAiB,CAAC,EAChB,KAAK,EAAE,OAAO,EACd,eAAe,EAAE,IAAI,GAAG;;AAGhC,AAAA,OAAO,CAAC,EACN,QAAQ,EAAE,QAAQ,EAClB,MAAM,EAAE,CAAC,GAAG"
+	"mappings": "AAAA,AAAA,IAAI,CAAC,EACH,WAAW,EAAE,6BAA6B,EAC1C,WAAW,EAAE,IAAI,GAClB;;AAED,AAAA,CAAC,CAAC,EACA,KAAK,EAAE,OAAO,EACd,eAAe,EAAE,IAAI,GACtB;;AAED,AAAA,UAAU,CAAC,EACT,SAAS,EAAE,MAAM,EACjB,MAAM,EAAE,MAAM,GACf;;AAED,AAAA,OAAO,CAAC,EACN,OAAO,EAAE,IAAI,EACb,eAAe,EAAE,aAAa,EAC9B,WAAW,EAAE,MAAM,EACnB,QAAQ,EAAE,KAAK,EACf,GAAG,EAAE,CAAC,EACN,KAAK,EAAE,IAAI,GAaZ;;AAnBD,AAOE,OAPK,CAOL,iBAAiB,CAAC,EAChB,OAAO,EAAE,IAAI,EACb,eAAe,EAAE,IAAI,EACrB,WAAW,EAAE,MAAM,GAQpB;;AAlBH,AAWI,OAXG,CAOL,iBAAiB,CAIf,iBAAiB,CAAC,EAChB,MAAM,EAAE,OAAO,GAKhB;;AAjBL,AAaM,OAbC,CAOL,iBAAiB,CAIf,iBAAiB,CAEf,iBAAiB,CAAC,EAChB,KAAK,EAAE,OAAO,EACd,eAAe,EAAE,IAAI,GACtB;;AAMP,AAAA,OAAO,CAAC,EACN,QAAQ,EAAE,QAAQ,EAClB,MAAM,EAAE,CAAC,GACV"
 }

@@ -1,5 +1,20 @@
 ---
 ---
+@use "variables";
 
-// Importing sass file from /_sass
-@import 'blog';
+ul.posts {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  li.posts__item {
+    background-color: $bg-alt;
+    margin-bottom: 1rem;
+    padding: 1.25rem;
+    .posts__title {
+      margin: 0;
+    }
+    .posts__desc {
+      margin-top: 1rem;
+    }
+  }
+}
