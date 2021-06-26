@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "index.css",
+	"sources": [
+		"index.scss",
+		"_sass/_index.sass"
+	],
+	"sourcesContent": [
+		"// Importing sass file from /_sass\n@import 'index';",
+		".main__title {\n  font-weight: 300;\n  font-size: 2.25rem; }\n"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,YAAY,CAAC,EACX,WAAW,EAAE,GAAG,EAChB,SAAS,EAAE,OAAO,GAAG"
+}

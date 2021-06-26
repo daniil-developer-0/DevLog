@@ -6,15 +6,19 @@
   <!-- Title -->
   <title>{{page.title}}</title>
   <!-- Styles -->
-    <!-- Normalize -->
-    <link rel="stylesheet" href="/assets/css/normalize.css">
-    <!-- Fonts -->
-    <link rel="stylesheet" href="/assets/css/fonts.css">
-    <!-- Default styles -->
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <!-- TODO: Make if statement for blog pages -->
-    <!-- Blog styles -->
-    <link rel="stylesheet" href="/assets/css/blog.css">
-    <!-- Adaptive of layout -->
-    <link rel="stylesheet" href="/assets/css/adaptive-style.css">
+  <!-- Normalize -->
+  <link rel="stylesheet" href="/assets/css/normalize.css">
+  <!-- Fonts -->
+  <link rel="stylesheet" href="/assets/css/fonts.css">
+  <!-- Default styles -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <!-- Index Page -->
+  {% if page.url=="/" %}
+  <link rel="stylesheet" href="/assets/css/index.css">
+  {%endif %}
+  <!-- TODO: Make if statement for blog pages -->
+  <!-- Blog styles -->
+  <link rel="stylesheet" href="/assets/css/blog.css">
+  <!-- Adaptive of layout -->
+  <link rel="stylesheet" href="/assets/css/adaptive-style.css">
 </head>

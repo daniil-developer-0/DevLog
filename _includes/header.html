@@ -1,13 +1,15 @@
-<header class="header">
-  <a href="/" class="header__logo">
-    <img src="#" alt="Logo">
-  </a>
-  <div>
+<div class="container">
+  <header class="header">
+    <a href="/" class="header__logo">
+      {% include logo.html %}
+    </a>
+
     <nav class="header__navigation navigation">
       <ul class="navigation__list">
         {% for item in site.data.nav %}
         <li class="navigation__item">
-          <a href="{{ item.link }}" class="navigation__link" {% if page.url==item.link %}style="font-weight: 700;" {%endif %} >
+          <a href="{{ item.link }}" class="navigation__link" {% if page.url==item.link %}style="font-weight: 700;"
+            {%endif %}>
             {{ item.name }}
           </a>
         </li>
@@ -17,5 +19,5 @@
     <div class="header__theme-changer theme-changer">
       Поменять тему
     </div>
-  </div>
-</header>
+  </header>
+</div>
