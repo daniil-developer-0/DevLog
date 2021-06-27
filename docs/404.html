@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <!-- Meta -->
   <meta charset="UTF-8">
@@ -21,11 +21,13 @@
   <link rel="stylesheet" href="/assets/css/blog.css">
   <!-- Adaptive of layout -->
   <link rel="stylesheet" href="/assets/css/adaptive-style.css">
+  <!-- Dark theme -->
+  <link rel="stylesheet" href="/assets/css/dark-theme.css">
 </head>
 
 <body>
-  <div class="container">
   <header class="header">
+  <div class="header__body container">
     <a href="/" class="header__logo">
       <svg xmlns="http://www.w3.org/2000/svg" width="64" height="38" viewBox="0 0 256 152" fill="none">
   <path d="M0 20C0 8.9543 8.95431 0 20 0H256V132C256 143.046 247.046 152 236 152H0V20Z" fill="#0073DE"
@@ -35,7 +37,6 @@
     fill="#222222" />
 </svg>
     </a>
-
     <nav class="header__navigation navigation">
       <ul class="navigation__list">
         
@@ -72,10 +73,10 @@
       </ul>
     </nav>
     <div class="header__theme-changer theme-changer">
-      Поменять тему
+      <img src="/assets/img/dark_mode_black_24dp.svg" alt="">
     </div>
-  </header>
-</div>
+  </div>
+</header>
 
   <div class="container">
   <h1>404</h1>
@@ -88,6 +89,8 @@
   <footer class="footer">
   <p>This is footer</p>
 </footer>
+  <!-- Theme Switcher script -->
+<script src="/assets/js/theme_switcher.js"></script>
 </body>
 
 </html>

@@ -1,15 +1,14 @@
-<div class="container">
-  <header class="header">
+<header class="header">
+  <div class="header__body container">
     <a href="/" class="header__logo">
       {% include logo.html %}
     </a>
-
     <nav class="header__navigation navigation">
       <ul class="navigation__list">
         {% for item in site.data.nav %}
         <li class="navigation__item">
-          <a href="{{ item.link }}" class="navigation__link" {% if page.url==item.link %}style="font-weight: 700;"
-            {%endif %}>
+          <a href="{{ item.link }}" class="navigation__link" {% if page.url==item.link %}style="font-weight: 700;" {%endif
+            %}>
             {{ item.name }}
           </a>
         </li>
@@ -17,7 +16,7 @@
       </ul>
     </nav>
     <div class="header__theme-changer theme-changer">
-      Поменять тему
+      <img src="/assets/img/dark_mode_black_24dp.svg" alt="">
     </div>
-  </header>
-</div>
+  </div>
+</header>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <!-- Meta -->
   <meta charset="UTF-8">
@@ -23,11 +23,13 @@
   <link rel="stylesheet" href="/assets/css/blog.css">
   <!-- Adaptive of layout -->
   <link rel="stylesheet" href="/assets/css/adaptive-style.css">
+  <!-- Dark theme -->
+  <link rel="stylesheet" href="/assets/css/dark-theme.css">
 </head>
 
 <body>
-  <div class="container">
   <header class="header">
+  <div class="header__body container">
     <a href="/" class="header__logo">
       <svg xmlns="http://www.w3.org/2000/svg" width="64" height="38" viewBox="0 0 256 152" fill="none">
   <path d="M0 20C0 8.9543 8.95431 0 20 0H256V132C256 143.046 247.046 152 236 152H0V20Z" fill="#0073DE"
@@ -37,13 +39,11 @@
     fill="#222222" />
 </svg>
     </a>
-
     <nav class="header__navigation navigation">
       <ul class="navigation__list">
         
         <li class="navigation__item">
-          <a href="/" class="navigation__link" style="font-weight: 700;"
-            >
+          <a href="/" class="navigation__link" style="font-weight: 700;" >
             Home
           </a>
         </li>
@@ -75,13 +75,13 @@
       </ul>
     </nav>
     <div class="header__theme-changer theme-changer">
-      Поменять тему
+      <img src="/assets/img/dark_mode_black_24dp.svg" alt="">
     </div>
-  </header>
-</div>
+  </div>
+</header>
 
   <main class="main container">
-  <h1 class="main__title">Привет!</h1>
+  <h1 class="main__title heading">Привет!</h1>
   <p class="main__text">
     Привет, меня зовут Шило Даниил, и я веб-разработчик. Я занимаюсь веб-разработкой около 3-4 лет.
     Я верстаю сайты и занимаюсь разработкой веб-приложений. Очень часто занимаюсь доработкой уже
@@ -97,15 +97,20 @@
     (Adobe Photoshop, Visual Studio). Знаю многое про устройство операционных систем на базе ядра
     Linux. Долгое время работал под кастомным Arch Linux, затем перешёл на Fedora.
   </p>
-  <p class="main__text">Долгое время пишу статьи на <a href="#">Хабр</a>. В основном пишу о
-    UNIX-подобных операционных системах. Также веду <a href="#">личный блог в телеграм</a> с
+  <p class="main__text">Долгое время пишу статьи на <a class="link" href="#">Хабр</a>. В основном пишу о
+    UNIX-подобных операционных системах. Также веду <a class="link" href="#">личный блог в телеграм</a> с
     названием как и у данного сайта.
   </p>
+  <p class="main__text">Кстати, на данном сайте используется цветовая тема <a
+      href="https://github.com/altercation/solarized">Solarized</a>,
+    если хотите узнать больше, то перейдите по ссылке.</p>
 </main>
 
   <footer class="footer">
   <p>This is footer</p>
 </footer>
+  <!-- Theme Switcher script -->
+<script src="/assets/js/theme_switcher.js"></script>
 </body>
 
 </html>

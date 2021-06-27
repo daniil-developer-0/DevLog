@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <!-- Meta -->
   <meta charset="UTF-8">
@@ -21,11 +21,13 @@
   <link rel="stylesheet" href="/assets/css/blog.css">
   <!-- Adaptive of layout -->
   <link rel="stylesheet" href="/assets/css/adaptive-style.css">
+  <!-- Dark theme -->
+  <link rel="stylesheet" href="/assets/css/dark-theme.css">
 </head>
 
 <body>
-  <div class="container">
   <header class="header">
+  <div class="header__body container">
     <a href="/" class="header__logo">
       <svg xmlns="http://www.w3.org/2000/svg" width="64" height="38" viewBox="0 0 256 152" fill="none">
   <path d="M0 20C0 8.9543 8.95431 0 20 0H256V132C256 143.046 247.046 152 236 152H0V20Z" fill="#0073DE"
@@ -35,7 +37,6 @@
     fill="#222222" />
 </svg>
     </a>
-
     <nav class="header__navigation navigation">
       <ul class="navigation__list">
         
@@ -46,8 +47,7 @@
         </li>
         
         <li class="navigation__item">
-          <a href="/blog.html" class="navigation__link" style="font-weight: 700;"
-            >
+          <a href="/blog.html" class="navigation__link" style="font-weight: 700;" >
             Blog
           </a>
         </li>
@@ -73,27 +73,36 @@
       </ul>
     </nav>
     <div class="header__theme-changer theme-changer">
-      Поменять тему
+      <img src="/assets/img/dark_mode_black_24dp.svg" alt="">
     </div>
-  </header>
-</div>
+  </div>
+</header>
 
   <div class="container">
-  <ul class="posts">
-    
-    <li class="posts__item">
-      <a class="posts__link" href="/blog/2021/06/24/git.html">
-        <h2 class="posts__title">Git</h2>
-        <p class="posts__desc">Расскажу о git: как им пользоваться, что это такое и почему используется</p>
-      </a>
-    </li>
-    
-  </ul>
+  <div class="blog">
+    <h1 class="blog__heading heading">Блог</h1>
+    <p class="blog__text">Я достаточно давно пишу статьи о разных темах, в основном касающихся
+      тематики IT. Среди моих любимых тем: Администрирование, веб-разработка (Javascript, HTML + CSS),
+      всякие мини-библиотеки JS.
+    </p>
+    <ul class="blog__posts posts">
+      
+      <li class="posts__item">
+        <a class="posts__link" href="/blog/2021/06/24/git.html">
+          <h2 class="posts__title">Git</h2>
+          <p class="posts__desc">Расскажу о git: как им пользоваться, что это такое и почему используется</p>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
 </div>
 
   <footer class="footer">
   <p>This is footer</p>
 </footer>
+  <!-- Theme Switcher script -->
+<script src="/assets/js/theme_switcher.js"></script>
 </body>
 
 </html>

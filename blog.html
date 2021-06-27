@@ -4,14 +4,21 @@ lang: ru
 layout: default
 ---
 <div class="container">
-  <ul class="posts">
-    {% for post in site.posts %}
-    <li class="posts__item">
-      <a class="posts__link" href="{{ post.url }}">
-        <h2 class="posts__title">{{ post.title }}</h2>
-        <p class="posts__desc">{{ post.desc }}</p>
-      </a>
-    </li>
-    {% endfor %}
-  </ul>
+  <div class="blog">
+    <h1 class="blog__heading heading">Блог</h1>
+    <p class="blog__text">Я достаточно давно пишу статьи о разных темах, в основном касающихся
+      тематики IT. Среди моих любимых тем: Администрирование, веб-разработка (Javascript, HTML + CSS),
+      всякие мини-библиотеки JS.
+    </p>
+    <ul class="blog__posts posts">
+      {% for post in site.posts %}
+      <li class="posts__item">
+        <a class="posts__link" href="{{ post.url }}">
+          <h2 class="posts__title">{{ post.title }}</h2>
+          <p class="posts__desc">{{ post.desc }}</p>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
